@@ -3,8 +3,8 @@ import { ArrowDownUp, CircleUserRound, Search, Users } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import doodle_jump_rounded from '../../assets/letsPlay/doodle_jump_rounded.png'
-import LetsPlayMobileSlider from '@/components/LetsPlayComponent/LetsPlayMobileSlider';
-import LetsPlaySlider from '@/components/LetsPlayComponent/LetsPlaySlider';
+// import LetsPlayMobileSlider from '@/components/LetsPlayComponent/LetsPlayMobileSlider';
+// import LetsPlaySlider from '@/components/LetsPlayComponent/LetsPlaySlider';
 // import LetsPlaySlider from '@/Components/LetsPlayComponent/LetsPlaySlider';
 // import LetsPlayMobileSlider from '@/Components/LetsPlayComponent/LetsPlayMobileSlider';
 const page = () => {
@@ -77,7 +77,7 @@ const page = () => {
                             <div className='bg-gradient-to-b from-[#003366]  to-[#0055AA]  space-y-4  py-8 px-14 rounded-[40px]  '>
                                 <h2 className='text-center text-white text-xl font-extrabold'>Most Popular games right now!</h2>
                                 <div className=''>
-                                    <LetsPlayMobileSlider />
+                                    {/* <LetsPlayMobileSlider /> */}
                                 </div>
                             </div>
                             <div className='mt-3'>
@@ -95,7 +95,7 @@ const page = () => {
                                 <hr className='h-[3px] bg-black mt-2 ' />
                             </div>
                             <div className='mt-3'>
-                                <LetsPlaySlider />
+                                {/* <LetsPlaySlider /> */}
                             </div>
                             <div className='flex justify-center'>
                                 <div className=' border-2 border-black rounded-3xl w-[316px] h-[481px] px-5'>
@@ -217,7 +217,7 @@ const page = () => {
                                 <hr className='h-[3px] bg-black ' />
                             </div>
                             <div className='mt-3'>
-                                <LetsPlaySlider />
+                                {/* <LetsPlaySlider /> */}
                             </div>
                         </div>
                     </div>
