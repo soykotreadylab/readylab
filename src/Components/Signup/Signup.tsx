@@ -5,10 +5,11 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import { useAuthModal } from "@/hooks/useAuthModal"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../ui/dialog"
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form"
 import { Input } from "../ui/input"
 import { Button } from "../ui/button"
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../ui/dialog"
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form"
+
 
 // Define the signup schema
 const signupSchema = z

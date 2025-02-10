@@ -5,16 +5,15 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
 import icone from "../../assets/HomePageImage/readylab_Black.png";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../ui/dialog";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
-import { SignUpModal } from "../Signup/Signup";
 import { useLoginModal } from "@/hooks/useLoginModal";
 import { useAuthModal } from "@/hooks/useAuthModal";
 import { useRouter } from "next/navigation";
-// import { useSignUpModal } from "@/hooks/useSignUpModal"; 
-// Form schema
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "../ui/dialog";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
+import { Input } from "../ui/input";
+import { SignUpModal } from "../Signup/Signup";
+// import { Dialog } from "../ui/dialog";
+
 const formSchema = z.object({
   username: z.string().min(1, { message: "Username is required" }),
   password: z.string().min(1, { message: "Password is required" }),

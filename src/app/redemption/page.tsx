@@ -4,9 +4,12 @@ import React, { useEffect, useState } from 'react';
 import coupon from '../../assets/HomePageImage/coupon_icon.png'
 // import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
 // import { Input } from '@/components/ui/input';
-import RedemptionSilder from '@/Components/Redemption/RedemptionSilder';
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/Components/ui/select';
-import { Input } from '@/Components/ui/input';
+// import RedemptionSilder from '@/Components/Redemption/RedemptionSilder';
+// import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/Components/ui/select';
+// import { Input } from '@/Components/ui/input';
+import RedemptionSilder from '@/components/Redemption/RedemptionSilder';
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Input } from '@/components/ui/input';
 const Redemption = () => {
     const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {

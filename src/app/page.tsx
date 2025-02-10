@@ -9,7 +9,9 @@ import TicketMobile from '../assets/HomePageImage/image 23 (1).png'
 import TicketMobile2 from '../assets/HomePageImage/image 24 (1).png'
 import { useEffect, useState } from "react";
 import { useLoginModal } from "@/hooks/useLoginModal";
-import { LoginModal } from "@/Components/Login/Login";
+import { LoginModal } from "@/components/Login/Login";
+// import { LoginModal } from "@/components/Login/Login";
+// import { LoginModal } from "@/Components/Login/Login";
 export default function Home() {
 
   const [isMobile, setIsMobile] = useState(false);

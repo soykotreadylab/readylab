@@ -3,8 +3,10 @@ import { ArrowDownUp, CircleUserRound, Search, Users } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import doodle_jump_rounded from '../../assets/letsPlay/doodle_jump_rounded.png'
-import LetsPlaySlider from '@/Components/LetsPlayComponent/LetsPlaySlider';
-import LetsPlayMobileSlider from '@/Components/LetsPlayComponent/LetsPlayMobileSlider';
+import LetsPlayMobileSlider from '@/components/LetsPlayComponent/LetsPlayMobileSlider';
+import LetsPlaySlider from '@/components/LetsPlayComponent/LetsPlaySlider';
+// import LetsPlaySlider from '@/Components/LetsPlayComponent/LetsPlaySlider';
+// import LetsPlayMobileSlider from '@/Components/LetsPlayComponent/LetsPlayMobileSlider';
 const page = () => {
 
     const [isMobile, setIsMobile] = useState(false);

@@ -1,6 +1,7 @@
 // // import LoginForm from './login-form'
 
-import { LoginModal } from "@/Components/Login/Login";
+import { LoginModal } from "@/components/Login/Login";
+
 
 
 // import LoginForm from "@/Components/Login/Login";

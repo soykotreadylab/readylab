@@ -7,9 +7,10 @@ import "./globals.css";
 // import { CustomSidebar } from "@/components/SideBar/SideBar";
 // import { Header } from "@/components/Header/Header";
 import { usePathname } from "next/navigation";
-import { CustomSidebar } from "@/Components/SideBar/SideBar";
+// import { CustomSidebar } from "@/Components/SideBar/SideBar";
 import { useEffect, useState } from "react";
 import { Key, Settings, ShoppingBag, Trophy, User } from "lucide-react";
+import { CustomSidebar } from "@/components/SideBar/SideBar";
 // import { CustomSidebar } from "@/Components/SideBar/SideBar";
 
 const geistSans = Geist({

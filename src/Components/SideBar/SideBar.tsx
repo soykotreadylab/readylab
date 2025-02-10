@@ -6,9 +6,11 @@ import Image from 'next/image'
 import logo from '../../assets/logo/readylab_white_icon.png'
 import { CircleUserRound, icons, Key, Settings, ShoppingBag, Trophy, User } from 'lucide-react'
 import { useLoginModal } from '@/hooks/useLoginModal'
+// import { LoginModal } from '../Login/Login'
+// import { SignUpModal } from '../Signup/Signup'
+import { usePathname } from 'next/navigation'
 import { LoginModal } from '../Login/Login'
 import { SignUpModal } from '../Signup/Signup'
-import { usePathname } from 'next/navigation'
 
 const data = {
   navMain: [

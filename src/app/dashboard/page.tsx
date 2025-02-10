@@ -11,9 +11,11 @@ import game from '../../assets/HomePageImage/games_icon.png'
 // import { GameSlider } from './components/GameSlider';
 // import type { Game } from '../utils/Interfaces/GameSlider/types';
 import type { Game } from '../../utils/Interfaces/GameSlider/types';
-import GameSlider from "@/Components/HomeSlider/GameSlider";
-import { Calendar } from "@/Components/ui/calendar";
+// import GameSlider from "@/Components/HomeSlider/GameSlider";
+// import { Calendar } from "@/Components/ui/calendar";
 import { useEffect, useState } from "react";
+import GameSlider from "@/components/HomeSlider/GameSlider";
+import { Calendar } from "@/components/ui/calendar";
 // import GameSlider from "@/components/HomeSlider/GameSlider";
 // import GameSlider from "@/components/HomeSlider/GameSlider";
 // import { GameSlider } from "@/components/HomeSlider/GameSlider";
